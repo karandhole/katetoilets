@@ -7580,6 +7580,64 @@ ul.contact-list li i {
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
+
+
+/* Client Logo Section */
+.client-logo-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.client-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* Logo Grid */
+.client-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Desktop */
+  gap: 30px;
+  align-items: center;
+}
+
+/* Logo Card */
+.client-logo {
+  background: #fff;
+  padding: 5px;
+  border-radius: 2px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.client-logo img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  filter: grayscale(0%);
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.client-logo:hover img {
+  filter: grayscale(100%);
+  transform: scale(1.05);
+}
+
+/* 📱 Mobile View */
+@media (max-width: 767px) {
+  .client-logo-grid {
+    grid-template-columns: repeat(2, 1fr); /* Mobile */
+    gap: 20px;
+  }
+
+  .client-title {
+    font-size: 26px;
+  }
+}
 /*
 
 
