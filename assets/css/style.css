@@ -2282,7 +2282,9 @@ input.form-control {
 }
 @media (max-width: 767px) {
   .single-slide-item {
-    height: 600px;
+     height: 360px;                 /* Smaller height */
+  
+    background-position: center top;
   }
 }
 .single-slide-item h1 {
