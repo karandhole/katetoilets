@@ -2268,7 +2268,7 @@ input.form-control {
 
 /* Slider CSS */
 .single-slide-item {
-  background-image: url(../img/slider/banner.png);
+  background-image: url(../img/slider/banner3.png);
   background-size: cover;
   background-position: center;
   background-color: #ddd;
@@ -2288,16 +2288,18 @@ input.form-control {
 .single-slide-item h1 {
   color: #fff;
   font-size: 60px;
-  font-weight: 600;
-  line-height: 105px;
+  font-weight: 550;
+  line-height: 95px;
   letter-spacing: 1px;
   margin: 30px 0;
   font-family: "Montserrat", sans-serif;
+    /* ✨ Text Shadow */
+text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .single-slide-item h1 {
-    font-size: 85px;
-    line-height: 95px;
+    font-size: 65px;
+    line-height: 85px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2335,7 +2337,7 @@ input.form-control {
 }
 
 .hero-area-bg-2 {
-  background-image: url(../img/slider/slider1.png);
+  background-image: url(../img/slider/banner.png);
 }
 
 .hero-area-bg-3 {
