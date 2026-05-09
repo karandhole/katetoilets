@@ -208,12 +208,12 @@ $(".homepage-slides").slick({
 			0: {
 				items: 1,
 				nav: false,
-				dots: false,
+				dots: true,
 			},
 			600: {
 				items: 1,
 				nav: false,
-				dots: false,
+				dots: true,
 			},
 			768: {
 				items: 2,
