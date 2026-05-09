@@ -3661,6 +3661,7 @@ ul.service-list li i {
   border: none;
   margin: 0;
   color: #333;
+  font-weight: 600;
   padding: 12px 33px;
   border-right: 1px solid #ddd;
 }
