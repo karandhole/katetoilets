@@ -52,44 +52,47 @@
 
 	  //Home Page Slider
 
-	  $(".homepage-slides").slick({
-		slidesToShow: 1,
-		arrows: true,
-		infinite: true,
-		autoplay: true,
-		autoplaySpeed: 8000,
-		dots: false,
-		fade: true,
-		cssEase: 'linear',    
-		prevArrow: '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
-		  nextArrow: '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
-		settings: {
-			dots: false,
-			arrows: false,
-		},
-		responsive: [
-		  {
-			breakpoint: 992,
-			settings: {
-			  arrows: false,
-			},
-		  },
-		  {
-			breakpoint: 768,
-			settings: {
-			  arrows: false,
-			},
-		  },
-		  {
-			breakpoint: 480,
-			settings: {
-			  arrows: false,
-			},
-		  },
-		],
-	  });
+	 // Home Page Slider
+$(".homepage-slides").slick({
+  slidesToShow: 1,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 8000,
+  fade: true,
+  cssEase: 'linear',
 
+  dots: true,          // ✅ ENABLE PAGINATION
+  arrows: true,        // ✅ ENABLE ARROWS
 
+  prevArrow:
+    '<button type="button" class="slick-prev"><i class="las la-angle-left"></i></button>',
+  nextArrow:
+    '<button type="button" class="slick-next"><i class="las la-angle-right"></i></button>',
+
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        arrows: true,   // ✅ keep arrows on tablet
+        dots: true
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,   // ✅ keep arrows on mobile
+        dots: true
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        dots: true
+      },
+    },
+  ],
+});
 	//Home Page Slider
 
 	// $(".homepage-slides").owlCarousel({
@@ -148,7 +151,7 @@
 
 
 
-	
+
 	// Service Slider
 
 	$(".service-item-wrap").owlCarousel({

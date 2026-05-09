@@ -1180,6 +1180,29 @@ hr {
   }
 }
 
+.homepage-slides .slick-dots {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex !important;
+  gap: 10px;
+  z-index: 20;
+}
+
+.homepage-slides .slick-dots li button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-size: 0;
+}
+
+.homepage-slides .slick-dots li.slick-active button {
+  background: #e18308;
+}
+
 
 
 
