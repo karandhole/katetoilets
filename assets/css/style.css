@@ -1173,6 +1173,10 @@ hr {
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 0;
+    
+  }
+  #slider-title{
+    display: none;
   }
 }
 
@@ -2284,9 +2288,9 @@ input.form-control {
 }
 @media (max-width: 767px) {
   .single-slide-item {
-     height: 360px;                 /* Smaller height */
+     height: 190px;                 /* Smaller height */
     background-size: contain;
-    background-position: center top;
+    background-position:top;
   }
 }
 .single-slide-item h1 {
@@ -2345,7 +2349,7 @@ text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
 }
 
 .hero-area-bg-3 {
-  background-image: url(../img/slider/slide-3.jpg);
+  background-image: url(../img/slider/banner.png);
 }
 
 .hero-area-bg-4 {
