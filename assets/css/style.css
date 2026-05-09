@@ -2458,6 +2458,8 @@ text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
   display: none;
 }
 
+
+
 .slick-active .single-slide-item h1 {
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
@@ -2725,6 +2727,7 @@ text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
 }
 .featured-area .featured-content h5 {
   margin-top: 10px;
+ font-family: 'Montserrat', sans-serif;
 }
 
 .col-lg-4:not(:last-child) .featured-area:after {

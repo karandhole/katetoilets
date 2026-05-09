@@ -147,6 +147,8 @@
 	// });
 
 
+
+	
 	// Service Slider
 
 	$(".service-item-wrap").owlCarousel({
