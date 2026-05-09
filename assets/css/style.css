@@ -1180,9 +1180,10 @@ hr {
 
 
 .section-title h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   line-height: 70px;
+  font-family: 'Marcellus', serif;
   margin: 10px 0;
   color: #64015f;
 }
@@ -1207,6 +1208,7 @@ hr {
 
 .section-title h6 {
   color: #ffffff;
+  font-family: 'Marcellus', serif;
   /* text-transform: uppercase; */
   font-size: 20px;
   font-weight: 500;
@@ -7637,6 +7639,18 @@ ul.contact-list li i {
   .client-title {
     font-size: 26px;
   }
+}
+
+
+.services-two_list {
+    margin-top: 2px;
+    padding-left: 0px;
+}
+
+.services-two_list li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
 }
 /*
 
