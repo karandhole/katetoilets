@@ -4939,6 +4939,7 @@ i.las.la-comments {
 .testimonial_author-name {
   font-size: 22px;
   font-weight: 600;
+  color: #211919;
   line-height: 28px;
   margin-top: 12px;
 }
@@ -5290,6 +5291,7 @@ i.las.la-comments {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+  color: #000;
 }
 
 .team-title {
