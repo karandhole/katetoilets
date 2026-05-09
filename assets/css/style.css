@@ -2285,7 +2285,7 @@ input.form-control {
 @media (max-width: 767px) {
   .single-slide-item {
      height: 360px;                 /* Smaller height */
-  
+    background-size: contain;
     background-position: center top;
   }
 }
@@ -2341,7 +2341,7 @@ text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.8);
 }
 
 .hero-area-bg-2 {
-  background-image: url(../img/slider/banner.png);
+  background-image: url(../img/slider/banner4.png);
 }
 
 .hero-area-bg-3 {
